@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --font-family: "Outfit", system-ui;
+    --bg-color: #3ABEF9;
+    --primary-color: #050C9C;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+
+h1 {
+    font-size: 4em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+[fale-numero]{
+    margin: 65px;
+    font-size: 50px;
+    color: #030558;
+
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+    
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+.button {
+    cursor: pointer;
+    color: #fdfdfd;
+    background-color: #3a42d6;
+    height: 17px;
+    width: 70px;
+    border-radius: 30px;
+    margin: 70px;
+    text-decoration: none;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
