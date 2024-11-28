@@ -1,5 +1,3 @@
-const numeroMaximo = localStorage.getItem('numeroMaximo')
-
 function verificaSeOChutePossuiUmValorValido(chute) {
     const numero = +chute
 

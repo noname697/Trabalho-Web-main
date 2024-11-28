@@ -1,5 +1,4 @@
-const numeroMaximo = localStorage.getItem('numeroMaximo')
-console.log(numeroMaximo)
+const numeroMaximo = Number(localStorage.getItem('numeroMaximo'))
 
 const menorValor = 1
 const maiorValor = numeroMaximo
