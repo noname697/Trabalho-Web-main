@@ -60,6 +60,10 @@ function verificaSeOChutePossuiUmValorValido(chute) {
             transform: scale(1.05);
             transition: transform 0.3s ease;
         }
+
+        .nivel img {
+        width: 50%
+        }
     </style>
 
     <div class="container">
@@ -119,6 +123,10 @@ function verificaSeOChutePossuiUmValorValido(chute) {
         .nivel:hover {
             transform: scale(1.05);
             transition: transform 0.3s ease;
+        }
+
+        .nivel img {
+        width: 50%
         }
     </style>
 
@@ -180,6 +188,10 @@ function verificaSeOChutePossuiUmValorValido(chute) {
                     .nivel:hover {
                         transform: scale(1.05);
                         transition: transform 0.3s ease;
+                    }
+
+                    .nivel img {
+                        width: 50%
                     }
                 </style>
 
